@@ -1,13 +1,13 @@
 jekyll-code-block-linenos
 ==================
 
-'jekyll-code-block-linenos' can replace 3-backticks code-block including keyword `linenos` in markdown(Eg. `` ```cpp linenos`` ) with [highlight tag including linenos](https://jekyllrb.com/docs/liquid/tags/#line-numbers)(Eg. `{% hightlight cpp linenos %}`) before rendering markdown to html.
+'jekyll-code-block-linenos' can replace triple backticks code block including keyword `linenos` in markdown(Eg. `` ```cpp linenos``) with [highlight tag including linenos](https://jekyllrb.com/docs/liquid/tags/#line-numbers)(Eg. `{% hightlight cpp linenos %}`) before rendering markdown to html.
 
 <br>
 
 'jekyll-code-block-linenos' uses [Jekyll Hook](https://jekyllrb.com/docs/plugins/hooks).
 
-**jekyll-code-block-linenos' is available only when using gem `rouge`.**
+'jekyll-code-block-linenos' is **available only when using gem `rouge`.**
 
 <br>
 
@@ -20,7 +20,7 @@ jekyll-code-block-linenos
 
 ## Installation
 
-Run `bundle install` after adding the gem to your Jekyll Gemfile:
+Run `bundle install` after adding the gem to your Jekyll Gemfile.
 
 ```ruby
 gem "jekyll-code-block-linenos"
@@ -30,7 +30,7 @@ gem "jekyll-code-block-linenos"
 
 ## Configuration
 
-Add the gem to the Jekyll `_config.yml`:
+Add the gem to the Jekyll `_config.yml`.
 ```yml
 plugin:
   - jekyll-code-block-linenos
@@ -39,7 +39,7 @@ plugin:
 <br>
 
 ## Usage
-Write `` ```{language} linenos`` in markdown as follows
+Write `` ```{language} linenos`` in markdown as follows.
 ~~~
 ```java linenos
 import java.util.*;

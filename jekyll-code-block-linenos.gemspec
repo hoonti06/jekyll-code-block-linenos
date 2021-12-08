@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = 'hoonti06@gmail.com'
   s.homepage = "https://github.com/hoonti06/jekyll-code-block-linenos"
   s.summary = "Jekyll hightlight tag including linenos converter"
-  s.description = "'jekyll-code-block-linenos' can replace 3-backticks code-block including keyword 'linenos' in markdown with 'highlight tag including linenos' before rendering markdown to html."
+  s.description = "'jekyll-code-block-linenos' can replace triple backticks code-block including keyword 'linenos' in markdown with 'highlight tag including linenos' before rendering markdown to html."
   s.license = 'MIT'
 
   s.required_ruby_version = '>= 2.6'
